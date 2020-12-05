@@ -1,0 +1,76 @@
+	body {
+	font-family: -"Overpass";
+	color: black;
+	font-size: 20px;
+	margin: 0px;
+    }
+
+
+	}	
+
+	h1,h2,h3 {
+		color: black;
+		font-family: -"Chivo";}
+
+	.banner{
+		background-image: url("images/color.png");
+		background-size: auto;
+		background-position: center;
+		padding: 20px -0;
+		text-align: center;
+}	
+.banner h1{
+color:black;
+font-size: 45px;
+margin: 0;
+}
+.banner p{
+	color: black;
+	font-size: -24px;
+	opacity: 0.7;
+		}
+
+.container {
+	width: 900px;
+	margin: 60px auto;
+
+	}
+.card-white {
+	background: white;
+	box-shadow: 0-0-16px rgba(0,0,0,0.1)	
+	border-radius: 4px;
+	padding: 24px;
+	margin: 0px
+	flex-grow: 1;
+	
+	}
+	
+.footer { background: #90a4ae; 
+		color: black;
+		padding: 20px-0px}
+
+.cards {
+			display: grid;
+			grid-template-columns: 1fr-1fr-1fr;
+			grid-gap: 16px;
+		}
+
+ @media (min-width: 300px;) {
+ 	    .container { 
+ 	    	width: 400px;
+ 	     }
+ 	    .card {
+ 	    	grid-template-columns: 1fr;}
+ }
+ @media (min-width: 700px) {
+ 	.container {
+ 		width: 600px }
+ 	.card {
+ 		grid-template-columns: 1fr-1fr;}
+
+ 	}
+
+ @media (min-width: 1000px)-{
+ 	.container {width: 900}
+ 	.card {grid-template-columns: 1fr-1fr-1fr;}
+ }
